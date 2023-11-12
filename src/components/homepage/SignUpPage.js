@@ -36,7 +36,7 @@ function SignUpPage() {
     setUserName("");
     setPassword("");
     if (response.status === "success") {
-      navigate("/login");
+      navigate("/response");
     }
   };
 

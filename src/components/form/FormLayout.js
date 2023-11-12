@@ -1,5 +1,5 @@
 import { Box, LinearProgress, styled } from "@mui/material";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import UserContext from "../../context/UserContext";

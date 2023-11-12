@@ -12,6 +12,7 @@ import FirstPage from "./components/form/FirstPage";
 import SecondPage from "./components/form/SecondPage";
 import UserContextProvider from "./context/UserContextProvider";
 import LastPage from "./components/form/LastPage";
+import ResponsePage from "./components/homepage/ResponsePage";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUpPage />,
+      },
+      {
+        path: "/response",
+        element: <ResponsePage />,
       },
     ],
   },

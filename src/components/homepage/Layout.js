@@ -51,8 +51,9 @@ function Layout() {
         >
           <MainText>
             {location.pathname === "/" && "Hey! I'm"}{" "}
-            {location.pathname === "/signup" && "sign up to"}{" "}
-            {location.pathname === "/login" && "log in to "}{" "}
+            {location.pathname === "/response" && "Hey! I'm"}{" "}
+            {location.pathname === "/signup" && "Sign up to"}{" "}
+            {location.pathname === "/login" && "Log in to "}{" "}
             <span style={{ color: "#54A1A7" }}>Wysa</span>
           </MainText>
           <Outlet />
